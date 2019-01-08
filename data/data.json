@@ -1,0 +1,63 @@
+
+  {
+    "tesla":[{
+      "model" : "Model S",
+      "manufacturer" :"Tesla",
+      "MSRP" : "From $78,000",
+      "range" : "249 to 315 miles battery-only",
+      "Horsepower" : "518 HP",
+      "description": "The Tesla Model S is a full-sized / Mid-size luxury all-electric five-door liftback car, produced by Tesla, Inc., and introduced on June 22, 2012.",
+      "images" : ["model_s_01.jpg"]
+      },{
+        "model" : "Model 3",
+        "manufacturer" :"Tesla",
+        "MSRP" : "From $46,000",
+        "range" : "220 to 310 miles battery-only",
+        "Horsepower" : "271 hp",
+        "description": "The Tesla Model 3 is a mid-size (US) / compact executive (EU) luxury all-electric four-door sedan manufactured and sold by Tesla, Inc., and introduced in March 31, 2016. The car was originally intended to be called the Model E, but after a lawsuit from Ford that holds the trademark on Model E, Musk announced on July 16, 2014 that the car would be called Model 3 instead.",
+        "images" : ["model_3_01.jpg"]
+      },{
+        "model" : "Model X",
+        "manufacturer" :"Tesla",
+        "MSRP" : "From $84,000",
+        "range" : "237 to 289 miles battery-only",
+        "Horsepower" : "518 HP",
+        "description": "The Tesla Model X is a mid-size all-electric luxury crossover utility vehicle (CUV) made by Tesla, Inc. that uses falcon wing doors for access to the second and third row seats and unveiled on February 9, 2012.",
+        "images" : ["model_x_01.jpg"]
+      },{
+        "model" : "Model Y",
+        "manufacturer" :"Tesla",
+        "MSRP" : "Unconfirmed but from 35-$40k ",
+        "range" : "Unconfirmed but 250+ miles battery-only",
+        "Horsepower" : "Unconfirmed",
+        "description": "'Tesla Model Y' is not an official yet, but that's what Tesla officials have been referring to when talking about a crossover all-electric vehicle built on the same third generation platform as the Tesla Model 3. Tesla CEO Elon Musk said that the vehicle will feature Falcon Wing doors like the Model X.",
+        "images" : ["model_y_01.jpg"]
+      },{
+        "model" : "Model Roadster",
+        "manufacturer" :"Tesla",
+        "MSRP" : "From $80,000",
+        "range" : "244 miles battery-only",
+        "Horsepower" : "288 HP",
+        "description": "'The Tesla Roadster is a battery electric vehicle (BEV) sports car, that was produced by Tesla, Inc. in California from 2008 to 2012. The Roadster was the first highway legal serial production all-electric car to use lithium-ion battery cells and the first production all-electric car to travel more than 320 kilometres (200 mi) per charge. It is also the first production car to be launched into orbit, carried by a Falcon Heavy rocket in a test flight on February 6, 2018. ",
+        "images" : ["model_roadster_01.jpg"]
+      },{
+        "model" : "Model Semi",
+        "manufacturer" :"Tesla",
+        "MSRP" : "From $150,000",
+        "range" : "300 to 500 miles battery-only",
+        "Horsepower" : "1000 HP",
+        "description": "'The Tesla Semi is an all-electric battery-powered Class 8 semi-trailer truck prototype which was unveiled on November 16, 2017 and planned for production in 2019 by Tesla, Inc. The company initially announced that the truck would have a 500 miles (805 km) range on a full charge and with its new batteries it would be able to run for 400 miles (640 km) after an 80% charge in 30 minutes using a solar-powered Tesla Megacharger charging station. Tesla CEO Elon Musk said that the Semi would come standard with Tesla Autopilot that allows semi-autonomous driving on highways. ",
+        "images" : ["model_semi_01.jpg"]
+      }]
+      }
+
+
+
+
+
+
+
+
+
+
+  
