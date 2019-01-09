@@ -47,7 +47,7 @@
         "range" : "300 to 500 miles battery-only",
         "Horsepower" : "1000 HP",
         "description": "'The Tesla Semi is an all-electric battery-powered Class 8 semi-trailer truck prototype which was unveiled on November 16, 2017 and planned for production in 2019 by Tesla, Inc. The company initially announced that the truck would have a 500 miles (805 km) range on a full charge and with its new batteries it would be able to run for 400 miles (640 km) after an 80% charge in 30 minutes using a solar-powered Tesla Megacharger charging station. Tesla CEO Elon Musk said that the Semi would come standard with Tesla Autopilot that allows semi-autonomous driving on highways. ",
-        "images" : ["model_semi_01.jpg"]
+        "images" : ["model_semi_01.jpg"] 
       }]
       }
 
