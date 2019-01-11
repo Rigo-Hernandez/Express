@@ -3,7 +3,7 @@ var router = express.Router();
 var app = express();
 // var data = require('../data/data.json');
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 
 router.get('/', (req, res)=>{
@@ -20,7 +20,7 @@ router.get('/', (req, res)=>{
         // model: teslaArray,
         // tesla: teslaModels,
         pageID: 'home',
-        teslalogo: '/images/tesla-logo.png'
+        // teslalogo: '/images/tesla-logo.png'
     });
 });
 

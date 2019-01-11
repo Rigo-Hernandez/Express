@@ -14,7 +14,7 @@
         "MSRP" : "From $46,000",
         "range" : "220 to 310 miles battery-only",
         "Horsepower" : "271 hp",
-        "description": "The Tesla Model 3 is a mid-size (US) / compact executive (EU) luxury all-electric four-door sedan manufactured and sold by Tesla, Inc., and introduced in March 31, 2016. The car was originally intended to be called the Model E, but after a lawsuit from Ford that holds the trademark on Model E, Musk announced on July 16, 2014 that the car would be called Model 3 instead.",
+        "description": "The Tesla Model 3 is a mid-size (US) / compact executive (EU) luxury all-electric four-door sedan manufactured and sold by Tesla, Inc., and introduced in March 31, 2016.",
         "images" : ["model_3_01.jpg"]
       },{
         "model" : "Model X",
@@ -35,10 +35,10 @@
       },{
         "model" : "Model Roadster",
         "manufacturer" :"Tesla",
-        "MSRP" : "From $80,000",
-        "range" : "244 miles battery-only",
-        "Horsepower" : "288 HP",
-        "description": "'The Tesla Roadster is a battery electric vehicle (BEV) sports car, that was produced by Tesla, Inc. in California from 2008 to 2012. The Roadster was the first highway legal serial production all-electric car to use lithium-ion battery cells and the first production all-electric car to travel more than 320 kilometres (200 mi) per charge. It is also the first production car to be launched into orbit, carried by a Falcon Heavy rocket in a test flight on February 6, 2018. ",
+        "MSRP" : "From $200,000",
+        "range" : "620 miles battery-only",
+        "Horsepower" : "1000 HP",
+        "description": "The Tesla Roadster is an upcoming all-electric battery-powered four-seater sports car made by Tesla, Inc. Tesla has said it will be capable of 0 to 60 mph (0 to 97 km/h) in 1.9 seconds. ",
         "images" : ["model_roadster_01.jpg"]
       },{
         "model" : "Model Semi",

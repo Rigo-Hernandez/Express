@@ -1,0 +1,50 @@
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <a href="/" class="masthead-brand"><img src="/images/tesla-logo.png" id="teslalogo" alt=""></a>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="/ModelS">
+                    <img src="/images/models.png" id="modelS" alt="">
+                </a>
+                <a class="nav-link" href="/model3">
+                    <img src="/images/model3.png" id="model3" alt="">
+                </a>
+                <a class="nav-link" href="/modelX">
+                    <img src="/images/modelX.png" id="modelX" alt="">
+                </a>
+                <a class="nav-link" href="modelRoadster">
+                    <img src="/images/modelRoadster.png" id="modelRoadster" alt="">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main role="main" class="inner cover">
+        <img src="/images/<%- models.images %>" alt="" style= "height: 20rem;" >
+        <h1 class="cover-heading"><%- models.model %> </h1>
+        <p class="lead"><%- models.description %></p>
+        <ul style="float:left; text-align: left; ">
+            <li>Manufacturer: <%- models.manufacturer %></li>
+            <li>MSRP: <%- models.MSRP %></li>
+            <li>Range: <%- models.range %></li>
+            <li>Horsepower: <%- models.Horsepower %></li>
+
+
+
+        </ul>
+        
+            
+        <p class="lead" >
+            <a href="#" class="btn btn-lg btn-secondary">Buy Now</a>
+        </p>
+    </main> 
+    <footer class="mastfoot mt-auto ">
+        <div class="inner" >
+            <p> 
+                <a href="http://www.rigohernandez.me/">DigitalCrafts</a>
+                &nbsp;&nbsp;
+                <a href="/Feedback">Feedback</a>
+            </p>
+            
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,83 @@
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <a href="/" class="masthead-brand"><img src="/images/tesla-logo.png" id="teslalogo" alt=""></a>
+            <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="/ModelS">
+                    <img src="/images/models.png" id="modelS" alt="">
+                </a>
+                <a class="nav-link" href="/model3">
+                    <img src="/images/model3.png" id="model3" alt="">
+                </a>
+                <a class="nav-link" href="/modelX">
+                    <img src="/images/modelX.png" id="modelX" alt="">
+                </a>
+                <a class="nav-link" href="modelRoadster">
+                    <img src="/images/modelRoadster.png" id="modelRoadster" alt="">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <h1 class="cover-heading">Leave Me some Feedback!</h1>
+    <main role="main" class="inner cover">
+        <form id="feedback-form">
+            <div class="form-group">
+                <label for="feedback-form-name">Name</label>
+                <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name" name = "name">
+            </div>
+            <div class="form-group">
+                <label for="feedback-form-title">Rate Your Experience</label>
+                <select class="form-control" id="feedback-form-title" name ="emoji">
+                    <option>😡</option>
+                    <option>💩</option>
+                    <option>🤔</option>
+                    <option>😀</option>
+                    <option>🤩</option>
+                </select>
+            </div>
+            <!-- <div class="form-group">
+                <label for="exampleFormControlSelect2">Example multiple select</label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div> -->
+            <div class="form-group">
+                <label for="feedback-form-messages">Please leave your feedback below</label>
+                <textarea class="form-control" id="feedback-form-messages" rows="3" name ="msg"></textarea>
+            </div>
+            <p class="lead">
+                    <button type = "submit" class="btn btn-lg btn-secondary">Submit</button>
+            </p>
+            <form class = "feedback-form" >
+            <div class="list-group">
+                <h2>Previous Feedback</h2>
+                <a class="list-group-item list-group-item-action flex-column align-items-start scroll">
+                    <div class="d-flex w-100 justify-content-between" style="padding-bottom:1rem">
+                        <h5 class="article-title"></h5>
+                        <small class = "maincontent feedback"></small>
+                    </div>
+                    <p class="feedback-messages"></p>
+                </a>
+            </div> 
+            </form> 
+        </form>
+        <br>
+        <!-- <p class="lead">
+            <a type = "submit" class="btn btn-lg btn-secondary">Submit</a>
+        </p> -->
+    </main>
+    <footer class="mastfoot mt-auto ">
+        <div class="inner">
+            <p>
+                <a href="http://www.rigohernandez.me/">DigitalCrafts</a>
+                &nbsp;&nbsp;
+                <a href="/feedback">Feedback</a>
+            </p>
+
+        </div>
+    </footer>
+</div>

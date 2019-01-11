@@ -1,29 +1,24 @@
-const express = require('express');
+var express = require('express');
+var router = express.Router();
 
-const router = express.Router();
-
-var data = require(`../data/data.json`)
 
 router.get('/modelS', (req, res)=>{
-    var html = ""
-    var tesla= data.tesla[0]
-
-    modelS=`
-    <li>
-    <h2>${tesla.model}</h2>
-    <img src='/images/${tesla.images}'>
-    <p> ${tesla.description} </p>
-    <p> Manufacturer : ${tesla.manufacturer}</p>
-    <p> MSRP : ${tesla.MSRP}</p>
-    <p> Range : ${tesla.range}</p>
-    <p> Horsepower : ${tesla.Horsepower}</p>
-    <a href="/">Go Back </a>
-    </li>`
-    
+    var data = req.app.get("appData");
+    var tesla = data.tesla;
+    var models= data.tesla;
     
 
-
-    res.send (`<ul>${modelS}</ul>`)
+    res.render('models', {
+        pageTitle: 'Tesla',
+        tesla: data.tesla,
+        models: data.tesla[0],
+        // model: teslaArray,
+        // tesla: teslaModels,
+        pageID: 'modelS',
+        
+        
+    });
+    console.log(models)
 });
 
-module.exports = router
+module.exports = router;
