@@ -7,7 +7,8 @@
       "range" : "249 to 315 miles battery-only",
       "Horsepower" : "518 HP",
       "description": "The Tesla Model S is a full-sized / Mid-size luxury all-electric five-door liftback car, produced by Tesla, Inc., and introduced on June 22, 2012.",
-      "images" : ["model_s_01.jpg"]
+      "images" : ["model_s_01.jpg"],
+      "shortname": ["models"]
       },{
         "model" : "Model 3",
         "manufacturer" :"Tesla",
@@ -15,7 +16,8 @@
         "range" : "220 to 310 miles battery-only",
         "Horsepower" : "271 hp",
         "description": "The Tesla Model 3 is a mid-size (US) / compact executive (EU) luxury all-electric four-door sedan manufactured and sold by Tesla, Inc., and introduced in March 31, 2016.",
-        "images" : ["model_3_01.jpg"]
+        "images" : ["model_3_01.jpg"],
+        "shortname": ["model3"]
       },{
         "model" : "Model X",
         "manufacturer" :"Tesla",
@@ -23,7 +25,8 @@
         "range" : "237 to 289 miles battery-only",
         "Horsepower" : "518 HP",
         "description": "The Tesla Model X is a mid-size all-electric luxury crossover utility vehicle (CUV) made by Tesla, Inc. that uses falcon wing doors for access to the second and third row seats and unveiled on February 9, 2012.",
-        "images" : ["model_x_01.jpg"]
+        "images" : ["model_x_01.jpg"],
+        "shortname": ["modelx"]
       },{
         "model" : "Model Y",
         "manufacturer" :"Tesla",
@@ -39,7 +42,8 @@
         "range" : "620 miles battery-only",
         "Horsepower" : "1000 HP",
         "description": "The Tesla Roadster is an upcoming all-electric battery-powered four-seater sports car made by Tesla, Inc. Tesla has said it will be capable of 0 to 60 mph (0 to 97 km/h) in 1.9 seconds. ",
-        "images" : ["model_roadster_01.jpg"]
+        "images" : ["model_roadster_01.jpg"],
+        "shortname": ["roadster"]
       },{
         "model" : "Model Semi",
         "manufacturer" :"Tesla",
