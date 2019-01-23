@@ -18,7 +18,7 @@ router.get('/model3', (req, res)=>{
         
         
     });
-    console.log(models)
+    // console.log(models)
 });
 
 module.exports = router;
