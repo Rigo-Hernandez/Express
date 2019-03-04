@@ -6,7 +6,11 @@ var http = require('http').Server(app);
 let feedback = require('./data/feedback.json');
 var bodyParser = require('body-parser');
 
+var port = process.env.PORT || 3000;
 
+
+var server=app.listen(port,function() {
+    console.log("app running on port 3000"); });
 
 app.set('view engine', 'ejs');
 app.set('appData', data);
@@ -23,6 +27,6 @@ app.use(require('./Routes/modelRoadster'));
 app.use(require('./Routes/api'));
 
 
-app.listen(3000, ()=>{
-    console.log("listening on port 3000")
-}) 
+// app.listen(3000, ()=>{
+//     console.log("listening on port 3000")
+// }) 
