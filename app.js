@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 let data = require('./data/data.json');
 var http = require('http').Server(app);
-var io = require("Socket.io")(http);
+// var io = require("Socket.io")(http);
 let feedback = require('./data/feedback.json');
 var bodyParser = require('body-parser');
 
